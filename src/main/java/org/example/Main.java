@@ -10,5 +10,9 @@ public class Main {
         long expected = 12;
         long actual = service.findMax(incomesInBillions);
         System.out.println(expected + " == ? == " + actual);
+
+        expected = 50;
+        actual = service.findMax(incomesInBillions);
+        System.out.println(expected + " == ? == " + actual);
     }
 }
